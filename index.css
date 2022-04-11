@@ -1,16 +1,7 @@
-HTML CSSResult Skip Results Iframe
-EDIT ON
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 
-
-/* Helpers */
-/**************************/
-.margin-top-10 {padding-top:10px;}
-.margin-bot-10 {padding-bottom:10px;}
-
-/* Typography */
-/**************************/
 #parallax h1 {
   font-family: 'Source Code Pro', monospace;
   font-size:24px; 
@@ -60,12 +51,7 @@ EDIT ON
   font-family: 'Source Code Pro', monospace;
 }
 
-.sc {color: #3b8595;}
-.ny {color: #3d3c3a;}
-.atw {color: #c48660;}
 
-/* Section - Title */
-/**************************/
 #parallax .title {
     background: white; 
     padding: 60px; 
@@ -77,8 +63,6 @@ EDIT ON
     letter-spacing:8px;
   }
 
-/* Section - Block */
-/**************************/
 #parallax .block {
   background: white; 
   padding: 60px; 
@@ -101,8 +85,7 @@ EDIT ON
   opacity: 0.70;
 }
 
-/* Section - Parallax */
-/**************************/
+
 #parallax .parallax-one {
   padding-top: 200px; 
   padding-bottom: 200px; 
@@ -188,24 +171,5 @@ EDIT ON
 }
 
 
-/* Extras */
-/**************************/
-#parallax .line-break {
-  border-bottom:1px solid black; 
-  width: 150px; 
-  margin:0 auto;}
 
-/* Media Queries */
-/**************************/
-@media screen and (max-width: 959px) and (min-width: 768px) {
-  #parallax .block {padding: 40px; width:620px;}
-}
-@media screen and (max-width: 767px) {
-  #parallax .block {padding: 30px; width:420px;}
-  #parallax h2 {font-size:30px;}
-  #parallax .block {padding: 30px;}
-  #parallax .parallax-one, #parallax .parallax-two, #parallax .parallax-three {padding-top:100px; padding-bottom:100px;}
-}
-@media screen and (max-width: 479px) {
-  #parallax .block {padding: 30px 15px; width:290px;}
-}
+
